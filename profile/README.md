@@ -43,7 +43,7 @@ Desktop scene selection app. ML-powered detection, visual clip browser, smart me
 <td width="50%" valign="top" align="center">
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge CLI](https://github.com/AMVerge-team/AMVerge-CLI)
