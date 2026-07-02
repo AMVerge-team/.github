@@ -106,12 +106,12 @@ amverge interpolate episode.mp4 -f 2
 amverge merge clip1.mp4 clip2.mp4 --output out.mp4
 ```
 
-- **Scene detection** : TransNetV2 ML · keyframe · edge
-- **AI upscaling** : ShuffleCUGAN · Anime4K · ArtCNN
-- **Frame interpolation** : RIFE PyTorch · Flowframes
-- **Smart cutting** : Lossless copy · smartcut · re-encode
-- **Export** : 15 codec profiles · 10 audio codecs · MP4/MKV/MOV
-- **Utilities** : Thumbnails · duplicate detection · metadata inspection · Discord RPC
+- **Scene detection**: TransNetV2 ML · keyframe · edge
+- **AI upscaling**: ShuffleCUGAN · Anime4K · ArtCNN
+- **Frame interpolation**: RIFE PyTorch · Flowframes
+- **Smart cutting**: Lossless copy · smartcut · re-encode
+- **Export**: 15 codec profiles · 10 audio codecs · MP4/MKV/MOV
+- **Utilities**: Thumbnails · duplicate detection · metadata inspection · Discord RPC
 
 ---
 <br/>
