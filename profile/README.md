@@ -144,6 +144,16 @@ amverge merge clip1.mp4 clip2.mp4 --output out.mp4
 AMVerge wouldn't exist without you.
 
 <!-- CONTRIBUTORS-START -->
+
+<table align="center">
+  <tr>
+    <td><a href="https://github.com/ligatima"><img src="https://avatars.githubusercontent.com/u/280236744?v=4&s=64" width="64" style="border-radius: 4px;" loading="lazy" alt="ligatima" /><br/><sub>ligatima</sub></a></td>
+    <td><a href="https://github.com/NetsumaInfo"><img src="https://avatars.githubusercontent.com/u/125161702?v=4&s=64" width="64" style="border-radius: 4px;" loading="lazy" alt="NetsumaInfo" /><br/><sub>NetsumaInfo</sub></a></td>
+    <td><a href="https://github.com/0xkhaosoccured"><img src="https://avatars.githubusercontent.com/u/170562418?v=4&s=64" width="64" style="border-radius: 4px;" loading="lazy" alt="0xkhaosoccured" /><br/><sub>0xkhaosoccured</sub></a></td>
+    <td><a href="https://github.com/TOSINIRL"><img src="https://avatars.githubusercontent.com/u/247466584?v=4&s=64" width="64" style="border-radius: 4px;" loading="lazy" alt="TOSINIRL" /><br/><sub>TOSINIRL</sub></a></td>
+  </tr>
+</table>
+
 <!-- CONTRIBUTORS-END -->
 
 <br/>
