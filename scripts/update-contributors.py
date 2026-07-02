@@ -4,7 +4,7 @@ import re
 import urllib.request
 
 REPO = "AMVerge-team/AMVerge"
-README_PATH = ".github/profile/README.md"
+README_PATH = "profile/README.md"
 EXCLUDE = {"moongetsu", "crptk"}
 PER_ROW = 7
 
