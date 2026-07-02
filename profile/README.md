@@ -10,7 +10,7 @@ Scene selection made easy. Built for the AMV community, by editors, for editors.
 
 [![GitHub Org](https://img.shields.io/badge/org-AMVerge%20Team-22c55e?style=for-the-badge&logo=github&logoColor=white&labelColor=0d2818)](https://github.com/AMVerge-team)
 [![PyPI](https://img.shields.io/badge/pypi-amverge-22c55e?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0d2818)](https://pypi.org/project/amverge/)
-[![Website](https://img.shields.io/badge/site-amverge.vercel.app-22c55e?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d2818)](https://amverge.vercel.app)
+[![Website](https://img.shields.io/badge/site-amverge.app-22c55e?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d2818)](https://amverge.app)
 
 </div>
 
@@ -67,7 +67,7 @@ Standalone Python CLI and library. Full backend port. Scene detection, AI upscal
 
 Marketing landing page and docs. React 19, TypeScript, Vite 8, MDX. Live changelog from GitHub releases, FAQ, feature showcase.
 
-[![Site](https://img.shields.io/badge/site-amverge.vercel.app-22c55e?style=flat-square&logo=vercel&logoColor=white&labelColor=0d2818)](https://amverge.vercel.app)
+[![Site](https://img.shields.io/badge/site-amverge.app-22c55e?style=flat-square&logo=vercel&logoColor=white&labelColor=0d2818)](https://amverge.app)
 [![Stack](https://img.shields.io/badge/stack-React%2019%20%2B%20Vite%208-61dafb?style=flat-square&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Website)
 [![License](https://img.shields.io/badge/license-GPL--3.0-22c55e?style=flat-square&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Website/blob/main/LICENSE)
 
