@@ -60,7 +60,7 @@ Standalone Python CLI and library. Full backend port. Scene detection, AI upscal
 <td width="50%" valign="top" align="center">
 <br/>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f310.png" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge Website](https://github.com/AMVerge-team/AMVerge-Website)
