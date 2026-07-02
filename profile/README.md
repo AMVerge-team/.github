@@ -60,7 +60,7 @@ Standalone Python CLI and library. Full backend port. Scene detection, AI upscal
 <td width="50%" valign="top" align="center">
 <br/>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge Website](https://github.com/AMVerge-team/AMVerge-Website)
@@ -75,7 +75,7 @@ Marketing landing page and docs. React 19, TypeScript, Vite 8, MDX. Live changel
 <td width="50%" valign="top" align="center">
 <br/>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Adobe_After_Effects_CC_2026_icon.svg/1280px-Adobe_After_Effects_CC_2026_icon.svg.png" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge Extension](https://github.com/AMVerge-team/AMVerge-Extension)
