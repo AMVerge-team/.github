@@ -139,6 +139,15 @@ amverge merge clip1.mp4 clip2.mp4 --output out.mp4
 
 <br/>
 
+## Thank You
+
+AMVerge wouldn't exist without you.
+
+<!-- CONTRIBUTORS-START -->
+<!-- CONTRIBUTORS-END -->
+
+<br/>
+
 &copy; 2026 AMVerge. All rights reserved.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d2818,100:0d3320&height=100&section=footer" width="100%" />
