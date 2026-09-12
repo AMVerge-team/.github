@@ -82,7 +82,7 @@ Marketing landing page and docs. React 19, TypeScript, Vite 8, MDX. Live changel
 
 After Effects extension for the AMVerge ecosystem. Coming soon.
 
-[![Repo](https://img.shields.io/badge/view-repo-22c55e?style=flat-square&logo=github&logoColor=white&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Extension)
+[![Repo](https://github.com/AMVerge-team/AMVerge-Extension)
 
 </td>
 </tr>
