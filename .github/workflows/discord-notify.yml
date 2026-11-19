@@ -1,0 +1,39 @@
+name: Reusable Discord Notifications
+
+on:
+  workflow_call:
+    inputs:
+      bot_name:
+        description: "Discord webhook display name (e.g. AMVerge Desktop, AMVerge CLI)"
+        required: false
+        type: string
+        default: "AMVerge Desktop"
+      bot_avatar:
+        description: "Icon filename under assets/icons/ (e.g. amverge-desktop.png)"
+        required: false
+        type: string
+        default: "amverge-desktop.png"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout AMVerge-team/.github
+        uses: actions/checkout@v4
+        with:
+          repository: AMVerge-team/.github
+          path: _amverge_notify
+
+      - name: Send Discord notification
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          FEED_WEBHOOK_URL: ${{ secrets.DISCORD_FEED_WEBHOOK_URL }}
+          BOT_NAME: ${{ inputs.bot_name }}
+          BOT_AVATAR_URL: https://raw.githubusercontent.com/AMVerge-team/.github/main/assets/icons/${{ inputs.bot_avatar }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python3 _amverge_notify/discord/notify.py
