@@ -32,7 +32,7 @@ Scene splitting, semantic scene search, and AI post-processing made effortless. 
 
 ### [AMVerge](https://github.com/AMVerge-team/AMVerge)
 
-Desktop scene-splitting & clip curation app. `TransNetV2` detection, **Scene Scout** (SigLIP 2 semantic & visual search), AI depth maps & upscaling, scenepacks, and direct send to AE, Premiere, Resolve & CapCut. Tauri + React + Python.
+Desktop app for scene splitting, semantic scene search, clip organization, and video export for editors. `TransNetV2` detection, **Scene Scout** (SigLIP 2 semantic & visual search), AI depth maps & upscaling, scenepacks, and direct send to AE, Premiere, Resolve & CapCut. Tauri + React + Python.
 
 [![Release](https://img.shields.io/github/v/release/AMVerge-team/AMVerge?style=flat-square&label=latest&color=22c55e&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/AMVerge-team/AMVerge/total?style=flat-square&label=downloads&color=16a34a&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge/releases)
@@ -48,7 +48,7 @@ Desktop scene-splitting & clip curation app. `TransNetV2` detection, **Scene Sco
 
 ### [AMVerge CLI](https://github.com/AMVerge-team/AMVerge-CLI)
 
-Standalone Python CLI and library (`import amverge`). Full backend port with scene detection, AI upscaling, RIFE/Flowframes interpolation, Depth-Anything-V2 depth maps, deadframe removal, and chained pipelines.
+AMVerge Features as a CLI Tool and Python Library (`import amverge`). Full backend port with scene detection, AI upscaling, RIFE/Flowframes interpolation, Depth-Anything-V2 depth maps, deadframe removal, and chained pipelines.
 
 [![PyPI](https://img.shields.io/pypi/v/amverge?style=flat-square&label=pypi&color=22c55e&labelColor=0d2818)](https://pypi.org/project/amverge/)
 [![Python](https://img.shields.io/badge/python-3.11+-blue?style=flat-square&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-CLI)
@@ -65,7 +65,7 @@ Standalone Python CLI and library (`import amverge`). Full backend port with sce
 
 ### [AMVerge Website](https://github.com/AMVerge-team/AMVerge-Website)
 
-Landing page, interactive showcase, and documentation. React 19, TypeScript, Vite 8, MDX. Live release changelogs, download counters, FAQ, and feature walkthroughs.
+Website and documentation site for AMVerge. Built with React 19, TypeScript, Vite 8, and MDX — featuring live release changelogs, download counters, FAQ, and feature walkthroughs.
 
 [![Site](https://img.shields.io/badge/site-amverge.app-22c55e?style=flat-square&logo=vercel&logoColor=white&labelColor=0d2818)](https://amverge.app)
 [![Stack](https://img.shields.io/badge/stack-React%2019%20%2B%20Vite%208-61dafb?style=flat-square&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Website)
@@ -80,7 +80,7 @@ Landing page, interactive showcase, and documentation. React 19, TypeScript, Vit
 
 ### [AMVerge Extension](https://github.com/AMVerge-team/AMVerge-Extension)
 
-After Effects CEP extension (CC 2018–2026+ on Windows). Detect scene cuts via Keyframe, Edge, or TransNetV2, preview clip thumbnails, and batch-import straight into your composition as auto-scaled layers.
+AMVerge Features as an After Effects extension (CC 2018–2026+ on Windows). Detect scene cuts via Keyframe, Edge, or TransNetV2, preview clip thumbnails, and batch-import straight into your composition as auto-scaled layers.
 
 [![Release](https://img.shields.io/github/v/release/AMVerge-team/AMVerge-Extension?style=flat-square&label=latest&color=22c55e&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Extension/releases/latest)
 [![After Effects](https://img.shields.io/badge/After%20Effects-CC%202018--2026%2B-9999ff?style=flat-square&labelColor=0d2818)](https://github.com/AMVerge-team/AMVerge-Extension)
