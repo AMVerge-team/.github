@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AMVerge-team/AMVerge/main/frontend/src/assets/amverge_title_gif.gif" width="100%" alt="AMVerge" />
+<img src="https://raw.githubusercontent.com/AMVerge-team/.github/main/assets/banners/AMVerge-Team.gif" width="100%" alt="AMVerge Team" />
 
 ### Open-source tools for AMV & video editors
 

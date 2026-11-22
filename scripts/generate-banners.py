@@ -21,6 +21,7 @@ BASE_GIF = SRC_DIR / "amverge_title_gif.gif"
 FONT_FILE = SRC_DIR / "Jersey10-Regular.ttf"
 
 DEFAULT_SUFFIXES = [
+    "Team",
     "CLI",
     "Website",
     "Extension",
