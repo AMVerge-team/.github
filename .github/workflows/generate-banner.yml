@@ -1,0 +1,70 @@
+name: Generate Banner
+
+on:
+  workflow_dispatch:
+    inputs:
+      suffix:
+        description: 'Banner suffix (e.g. Scoop, Android, Docs) or "all" to regenerate every default banner'
+        required: true
+        type: string
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: pip install --no-cache-dir pillow
+
+      - name: Generate banner(s)
+        env:
+          SUFFIX: ${{ inputs.suffix }}
+        run: |
+          if [ "$SUFFIX" = "all" ]; then
+            python3 scripts/generate-banners.py --all
+          else
+            python3 scripts/generate-banners.py "$SUFFIX"
+          fi
+
+      - name: Commit generated banners
+        env:
+          SUFFIX: ${{ inputs.suffix }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/banners/*.gif
+          if git diff --cached --quiet; then
+            echo "No banner changes to commit."
+            exit 0
+          fi
+          git commit -m "(add) generate AMVerge banner ($SUFFIX)"
+          git push
+
+      - name: Print embed snippet
+        env:
+          SUFFIX: ${{ inputs.suffix }}
+        run: |
+          if [ "$SUFFIX" != "all" ]; then
+            CLEAN=$(python3 -c "import re, os; print(re.sub(r'[^A-Za-z0-9._-]+', '-', os.environ['SUFFIX'].strip()).strip('-'))")
+            URL="https://raw.githubusercontent.com/AMVerge-team/.github/main/assets/banners/AMVerge-${CLEAN}.gif"
+            {
+              echo "### Banner ready"
+              echo ""
+              echo "\`\`\`html"
+              echo "<p align=\"center\">"
+              echo "  <img src=\"${URL}\" alt=\"AMVerge ${SUFFIX}\" width=\"1440\"/>"
+              echo "</p>"
+              echo "\`\`\`"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
