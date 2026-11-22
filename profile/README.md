@@ -43,7 +43,7 @@ Desktop app for scene splitting, semantic scene search, clip organization, and v
 <td width="50%" valign="top" align="center">
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/960px-Bash_Logo_Colored.svg.png" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge CLI](https://github.com/AMVerge-team/AMVerge-CLI)
@@ -75,7 +75,7 @@ Website and documentation site for AMVerge. Built with React 19, TypeScript, Vit
 <td width="50%" valign="top" align="center">
 <br/>
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Adobe_After_Effects_CC_2026_icon.svg/1280px-Adobe_After_Effects_CC_2026_icon.svg.png" width="48" style="border-radius: 4px; overflow: hidden;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" width="48" style="border-radius: 4px; overflow: hidden;" />
 </p>
 
 ### [AMVerge Extension](https://github.com/AMVerge-team/AMVerge-Extension)
