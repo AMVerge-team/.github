@@ -26,6 +26,7 @@ DEFAULT_SUFFIXES = [
     "Website",
     "Extension",
     "iOS",
+    "Android",
     "Bot",
     "Homebrew",
     "Scoop",
